@@ -8,3 +8,19 @@ $>> git clone git@github.com:gariyanto/ArduinoRFID.git
 4. Setup konfigurasi git di komputer anda
 $>> git config --global user.name "Nama Anda"
 $>> git config --global user.email "Email Anda"
+
+5. Menambahkan file ke project
+$>> touch baru.txt
+
+6. Menstage file 
+$>> git add baru.txt
+
+7. Commit/Menambahkan file tsb ke project
+$>> git commit -am 'Tambah file'
+
+8. Menyimpan perubahan ke server
+$>> git psuh -u origin master
+
+--- HARI BERLALU ---
+--- ANDA INGIN MELIHAT PERUBAHAN/KONTRIBUSI ORANG LAIN DI DALAM PROJEK TSB--
+$> git pull origin master
