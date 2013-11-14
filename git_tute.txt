@@ -1,0 +1,10 @@
+1. Buka web proyek di https://github.com/gariyanto/ArduinoRFID
+2. Terlihat alamat SSH proyek tersebut, yaitu:
+git@github.com:gariyanto/ArduinoRFID.git
+
+3. Clone projek ke komputer kita
+$>> git clone git@github.com:gariyanto/ArduinoRFID.git
+
+4. Setup konfigurasi git di komputer anda
+$>> git config --global user.name "Nama Anda"
+$>> git config --global user.email "Email Anda"
