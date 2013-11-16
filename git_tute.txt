@@ -19,7 +19,7 @@ $>> git add baru.txt
 $>> git commit -am 'Tambah file'
 
 8. Menyimpan perubahan ke server
-$>> git psuh -u origin master
+$>> git push -u origin master
 
 --- HARI BERLALU ---
 --- ANDA INGIN MELIHAT PERUBAHAN/KONTRIBUSI ORANG LAIN DI DALAM PROJEK TSB--
