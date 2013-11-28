@@ -1,0 +1,144 @@
+//Project 1 – Lampu Lalu lintas perempatan
+
+int ledMerah = 13;                                  
+int ledKuning = 12;
+int ledHijau = 11;
+int ledMerah1 = 10;                                 
+int ledKuning1 = 9;
+int ledHijau1 = 8;
+int ledMerah2 = 7;                                  
+int ledKuning2 = 6;
+int ledHijau2 = 5;
+int ledMerah3 = 4;                                  
+int ledKuning3 = 3;
+int ledHijau3 = 2;
+void setup()
+{
+pinMode(ledMerah, OUTPUT);              
+pinMode(ledKuning, OUTPUT);
+pinMode(ledHijau, OUTPUT);
+pinMode(ledMerah1, OUTPUT);             
+pinMode(ledKuning1, OUTPUT);
+pinMode(ledHijau1, OUTPUT);
+pinMode(ledMerah2, OUTPUT);             
+pinMode(ledKuning2, OUTPUT);
+pinMode(ledHijau2, OUTPUT);
+pinMode(ledMerah3, OUTPUT);             
+pinMode(ledKuning3, OUTPUT);
+pinMode(ledHijau3, OUTPUT);
+}
+void loop()
+{
+digitalWrite(ledMerah, HIGH); 
+digitalWrite(ledKuning, LOW);
+digitalWrite(ledHijau, LOW);
+digitalWrite(ledMerah1, HIGH); 
+digitalWrite(ledKuning1, LOW);
+digitalWrite(ledHijau1, LOW);
+digitalWrite(ledMerah2, LOW); 
+digitalWrite(ledKuning2, LOW);
+digitalWrite(ledHijau2, HIGH);
+digitalWrite(ledMerah3, HIGH); 
+digitalWrite(ledKuning3, LOW);
+digitalWrite(ledHijau3, LOW);
+delay(5000);
+
+digitalWrite(ledMerah, HIGH);
+digitalWrite(ledKuning, LOW);
+digitalWrite(ledHijau, LOW);
+digitalWrite(ledMerah1, HIGH); 
+digitalWrite(ledKuning1, LOW);
+digitalWrite(ledHijau1, LOW);
+digitalWrite(ledMerah2, LOW); 
+digitalWrite(ledKuning2, HIGH);
+digitalWrite(ledHijau2, HIGH);
+digitalWrite(ledMerah3, HIGH); 
+digitalWrite(ledKuning3, HIGH);
+digitalWrite(ledHijau3, LOW);
+delay(1000);
+
+digitalWrite(ledMerah, HIGH); 
+digitalWrite(ledKuning, LOW);
+digitalWrite(ledHijau, LOW);
+digitalWrite(ledMerah1, HIGH); 
+digitalWrite(ledKuning1, LOW);
+digitalWrite(ledHijau1, LOW);
+digitalWrite(ledMerah2, HIGH); 
+digitalWrite(ledKuning2, LOW);
+digitalWrite(ledHijau2, LOW);
+digitalWrite(ledMerah3, LOW); 
+digitalWrite(ledKuning3, LOW);
+digitalWrite(ledHijau3, HIGH);
+delay(5000);
+
+digitalWrite(ledMerah, HIGH); 
+digitalWrite(ledKuning, HIGH);
+digitalWrite(ledHijau, LOW);
+digitalWrite(ledMerah1, HIGH); 
+digitalWrite(ledKuning1, LOW);
+digitalWrite(ledHijau1, LOW);
+digitalWrite(ledMerah2, HIGH); 
+digitalWrite(ledKuning2, LOW);
+digitalWrite(ledHijau2, LOW);
+digitalWrite(ledMerah3, LOW); 
+digitalWrite(ledKuning3, HIGH);
+digitalWrite(ledHijau3, HIGH);
+delay(1000);
+
+digitalWrite(ledMerah, LOW);
+digitalWrite(ledKuning, LOW);
+digitalWrite(ledHijau, HIGH);
+digitalWrite(ledMerah1, HIGH); 
+digitalWrite(ledKuning1, LOW);
+digitalWrite(ledHijau1, LOW);
+digitalWrite(ledMerah2, HIGH); 
+digitalWrite(ledKuning2, LOW);
+digitalWrite(ledHijau2, LOW);
+digitalWrite(ledMerah3, HIGH); 
+digitalWrite(ledKuning3, LOW);
+digitalWrite(ledHijau3, LOW);
+delay(5000);
+
+digitalWrite(ledMerah, LOW);
+digitalWrite(ledKuning, HIGH);
+digitalWrite(ledHijau, HIGH);
+digitalWrite(ledMerah1, HIGH); 
+digitalWrite(ledKuning1, HIGH);
+digitalWrite(ledHijau1, LOW);
+digitalWrite(ledMerah2, HIGH); 
+digitalWrite(ledKuning2, LOW);
+digitalWrite(ledHijau2, LOW);
+digitalWrite(ledMerah3, HIGH); 
+digitalWrite(ledKuning3, LOW);
+digitalWrite(ledHijau3, LOW);
+delay(1000);
+
+digitalWrite(ledMerah, HIGH);
+digitalWrite(ledKuning, LOW);
+digitalWrite(ledHijau, LOW);
+digitalWrite(ledMerah1, LOW); 
+digitalWrite(ledKuning1, LOW);
+digitalWrite(ledHijau1, HIGH);
+digitalWrite(ledMerah2, HIGH); 
+digitalWrite(ledKuning2, LOW);
+digitalWrite(ledHijau2, LOW);
+digitalWrite(ledMerah3, HIGH); 
+digitalWrite(ledKuning3, LOW);
+digitalWrite(ledHijau3, LOW);
+delay(5000);
+
+digitalWrite(ledMerah, HIGH);
+digitalWrite(ledKuning, LOW);
+digitalWrite(ledHijau, LOW);
+digitalWrite(ledMerah1, LOW); 
+digitalWrite(ledKuning1, HIGH);
+digitalWrite(ledHijau1, HIGH);
+digitalWrite(ledMerah2, HIGH); 
+digitalWrite(ledKuning2, HIGH);
+digitalWrite(ledHijau2, LOW);
+digitalWrite(ledMerah3, HIGH); 
+digitalWrite(ledKuning3, LOW);
+digitalWrite(ledHijau3, LOW);
+delay(1000);
+
+}
